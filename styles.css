@@ -1,0 +1,171 @@
+body {
+    display:flex;
+    flex-direction: column;
+    flex-grow:1;
+}
+
+.footer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #1F2937;
+    flex-grow: 0;
+    color: white;
+    
+}
+
+.header {
+    color:teal;
+    font-style: bold;
+    background-color: #1F2937;
+    
+}
+.header-side{
+    display: flex;
+    justify-content: space-around;
+    font-weight:500;
+    margin: 0;
+    padding:5px 0;
+    flex-grow: 0;
+}
+
+.right-links{
+    display: flex;
+    gap:2em;
+}
+
+ul {
+  list-style-type: none;  
+}
+
+.maintitle{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-style: bold;
+}
+
+.illustrations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    flex-wrap: wrap;
+
+}
+
+a{
+    font-size:larger;
+    color: beige;
+    padding: 10px 0;
+}
+
+button{
+    background-color: #3882F6;
+    color:white;
+    border-radius: 15px;
+    padding:5px 20px;
+    
+
+}
+
+.text-info{
+    background-color: #1F2937;
+    display: flex;
+    justify-content:center;
+    color : white;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:1px;
+}
+
+.sub-and-image img  {
+    border:2px solid teal;
+    border-radius: 15%;
+    flex:1 1 0;
+    display: flex;
+}
+
+.subs{
+    display: flex;
+    gap:2em;
+    flex-wrap: wrap;
+    
+}
+
+.quotation{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.call2action{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:center;
+    background-color: #3882F6;
+    gap: 10em;
+    margin: 100px;
+    border-radius: 5px;
+    padding:30px 100px;
+}
+.text{
+    flex: 1 1 0;
+    max-width: 700px;
+    margin: 0 auto;
+    
+}
+
+.sub-and-image{
+    flex: 1 1 0;
+}
+
+.illustrations p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    padding: 0 200px;
+}
+.author {
+    align-self: flex-end;
+    padding:0 200px 0 0 ;
+    font-weight: bold;
+    font-size: 20px;
+}
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+.sgnup button{
+    border-radius: 7px;
+    border-color:white;
+    border-width: 2px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+.call-action .action{
+    font-weight:bold;
+    font-size: 30px;
+
+}
+.call-action p{
+    color:white;
+
+}
+.placeholder {
+    border: 1px;
+    border-radius: 5px;
+    margin: 0 200px 0 0;
+}
